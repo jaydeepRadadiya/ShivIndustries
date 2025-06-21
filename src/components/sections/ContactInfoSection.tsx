@@ -3,7 +3,7 @@ import { MapPin, Phone, Mail } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const ContactInfoSection: React.FC = () => {
-  const googleMapsLink = "https://www.google.com/maps/search/?api=1&query=Plot+No.+168,+Survey+No.+172%2F15,+Daman+Ganga+Estate,+Karwad,+Vapi,+Valsad,+Gujarat+396195";
+  // const googleMapsLink = "https://www.google.com/maps/search/?api=1&query=Plot+No.+168,+Survey+No.+172%2F15,+Daman+Ganga+Estate,+Karwad,+Vapi,+Valsad,+Gujarat+396195"; // Removed
 
   return (
     <section id="contact-us-section" className="py-16 bg-black text-gray-100">
@@ -25,15 +25,7 @@ const ContactInfoSection: React.FC = () => {
                 <br />
                 Pin: 396195
               </p>
-              <a
-                href={googleMapsLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-400 hover:underline font-medium flex items-center justify-center"
-              >
-                View on Google Maps
-                <MapPin size={16} className="ml-2" />
-              </a>
+              {/* Google Maps link removed */}
             </CardContent>
           </Card>
 
