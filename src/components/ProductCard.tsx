@@ -16,8 +16,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ imageSrc, title, description,
         <CardTitle className="text-xl font-semibold">{title}</CardTitle>
       </CardHeader>
       <CardContent className="flex-grow">
-        <p className="text-muted-foreground text-sm mb-2">{description}</p>
-        <p className="text-primary font-medium text-sm">{benefit}</p>
+        <p className="text-foreground text-sm mb-2">{description}</p>
+        <p className="text-foreground font-medium text-sm">{benefit}</p>
       </CardContent>
     </Card>
   );
