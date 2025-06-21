@@ -11,7 +11,7 @@ const ProductRange: React.FC = () => {
       benefit: "Reliable protection for every shipment."
     },
     {
-      imageSrc: "/Duplex-Corrugated-Boxes.png",
+      imageSrc: "/Duplex.png",
       title: "Duplex Corrugated Boxes",
       description: "Combining strength with a refined finish. Duplex corrugated boxes feature a smoother outer layer, perfect for high-quality printing and enhanced branding, while maintaining structural integrity.",
       benefit: "Premium presentation, robust protection."
@@ -47,7 +47,7 @@ const ProductRange: React.FC = () => {
       benefit: "Uncompromised strength for critical shipments."
     },
     {
-      imageSrc: "https://via.placeholder.com/400x300/FFB6C1/FF69B4?text=Fruit+Packing+Boxes",
+      imageSrc: "/Fruit-packging.png",
       title: "Fruit Packing Boxes",
       description: "Specially designed for the safe and fresh transport of fruits. Our fruit packing boxes offer optimal ventilation, moisture resistance, and durable construction, ensuring your produce arrives in perfect condition. Available in various sizes and customizable with branding.",
       benefit: "Preserve freshness and quality from farm to table."
