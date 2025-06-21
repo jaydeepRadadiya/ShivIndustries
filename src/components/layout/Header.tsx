@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom'; // Import Link
 const Header: React.FC = () => {
   return (
     <header className="w-full bg-black text-white shadow-lg py-4 px-6 flex justify-between items-center fixed top-0 left-0 right-0 z-50">
-      <div className="flex items-center"> {/* Changed to flex items-center for horizontal alignment */}
-        <img src="/Shiv-Industries Dark-.png" alt="Shiv Industries Logo" className="h-10 mr-3" /> {/* Added logo */}
-        <div className="flex flex-col items-start"> {/* Adjusted for text alignment */}
+      <div className="flex items-center">
+        <img src="/Shiv-Industries Dark-.png" alt="Shiv Industries Logo" className="h-16 mr-3" /> {/* Increased logo size to h-16 */}
+        <div className="flex flex-col items-start">
           <div className="text-2xl font-bold text-white">
             SHIV INDUSTRIES
           </div>
