@@ -22,6 +22,7 @@ const Footer: React.FC = () => {
           <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2">
             <li><a href="#hero" className="hover:underline">Home</a></li>
+            <li><a href="#about-us" className="hover:underline">About Us</a></li> {/* New link */}
             <li><a href="#why-shiv-industry" className="hover:underline">Why Choose Us</a></li>
             <li><a href="#products" className="hover:underline">Products</a></li>
             <li><a href="#get-started" className="hover:underline">Contact Us</a></li>
