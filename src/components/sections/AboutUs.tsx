@@ -3,10 +3,10 @@ import ImageCarousel from "@/components/ImageCarousel"; // Import the new ImageC
 
 const AboutUs: React.FC = () => {
   const carouselImages = [
-    "/machine1.jpg",
-    "/machine2.jpg",
-    "/machine3.jpg", // New placeholder image
-    "/machine4.jpg", // New placeholder image
+    "/Carousel1.png",
+    "/Carousel2.png",
+    "/Carousel3.png",
+    "/Carousel4.png",
   ];
 
   return (
