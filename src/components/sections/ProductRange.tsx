@@ -55,12 +55,12 @@ const ProductRange: React.FC = () => {
   ];
 
   return (
-    <section id="products" className="py-16 bg-secondary text-secondary-foreground">
+    <section id="products" className="py-16 bg-black text-gray-200">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-100 mb-4">
           Discover Your Ideal Packaging Solution.
         </h2>
-        <p className="text-lg text-center text-foreground/90 max-w-3xl mx-auto mb-12">
+        <p className="text-lg text-center text-gray-300 max-w-3xl mx-auto mb-12">
           Explore our comprehensive range of high-quality packaging options, meticulously crafted to protect your products, enhance your brand identity, and meet diverse industry requirements.
         </p>
 
@@ -77,7 +77,7 @@ const ProductRange: React.FC = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button size="lg" variant="outline" className="px-8 py-3 text-lg border-primary text-primary hover:bg-primary hover:text-primary-foreground shadow-md hover:shadow-lg transition-shadow">
+          <Button size="lg" variant="outline" className="px-8 py-3 text-lg border-gray-400 text-gray-200 hover:bg-gray-800 hover:text-white shadow-md hover:shadow-lg transition-shadow">
             View Our Full Product Gallery
           </Button>
         </div>
