@@ -11,7 +11,7 @@ const ProductRange: React.FC = () => {
       benefit: "Reliable protection for every shipment."
     },
     {
-      imageSrc: "https://via.placeholder.com/400x300/CCE0FF/3B82F6?text=Duplex+Corrugated",
+      imageSrc: "/Duplex-Corrugated-Boxes.png",
       title: "Duplex Corrugated Boxes",
       description: "Combining strength with a refined finish. Duplex corrugated boxes feature a smoother outer layer, perfect for high-quality printing and enhanced branding, while maintaining structural integrity.",
       benefit: "Premium presentation, robust protection."
