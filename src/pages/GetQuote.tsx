@@ -23,6 +23,7 @@ import {
 import { toast } from 'sonner';
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -65,6 +66,7 @@ const productTypes = [
 ];
 
 const GetQuote: React.FC = () => {
+  const navigate = useNavigate(); // Initialize useNavigate
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -82,6 +84,7 @@ const GetQuote: React.FC = () => {
     console.log("Quote Request Submitted:", values);
     toast.success("Your quote request has been submitted successfully! We will contact you soon.");
     form.reset(); // Reset the form after successful submission
+    navigate('/'); // Redirect to the main page
   }
 
   return (
