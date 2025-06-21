@@ -9,13 +9,13 @@ interface DifferentiatorProps {
 }
 
 const DifferentiatorCard: React.FC<DifferentiatorProps> = ({ icon: Icon, title, description }) => (
-  <Card className="flex flex-col items-center text-center p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
+  <Card className="flex flex-col items-center text-center p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
     <CardHeader className="pb-4">
       <Icon size={48} className="text-primary mb-4" />
       <CardTitle className="text-xl font-semibold">{title}</CardTitle>
     </CardHeader>
     <CardContent>
-      <p className="text-gray-600 dark:text-gray-400">{description}</p>
+      <p className="text-muted-foreground">{description}</p>
     </CardContent>
   </Card>
 );
@@ -55,12 +55,12 @@ const WhyShivIndustry: React.FC = () => {
   ];
 
   return (
-    <section id="why-shiv-industry" className="py-16 bg-white dark:bg-gray-900">
+    <section id="why-shiv-industry" className="py-16 bg-background">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 dark:text-white mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
           Beyond Boxes: Crafting Packaging Excellence for Your Success.
         </h2>
-        <p className="text-lg text-center text-gray-700 dark:text-gray-300 max-w-3xl mx-auto mb-12">
+        <p className="text-lg text-center text-muted-foreground max-w-3xl mx-auto mb-12">
           At Shiv Industries, we believe packaging is a critical extension of your brand and protection for your products. With deep industry experience, we specialize in delivering curated packaging solutions designed to meet the unique challenges and aspirations of businesses across various sectors. Our commitment is to precision, innovation, and unwavering quality.
         </p>
 
