@@ -4,7 +4,7 @@ import Footer from "@/components/layout/Footer";
 import HeroSection from "@/components/sections/HeroSection";
 import WhyShivIndustry from "@/components/sections/WhyShivIndustry";
 import ProductRange from "@/components/sections/ProductRange";
-import AboutUs from "@/components/sections/AboutUs"; // Import the new AboutUs section
+import AboutUs from "@/components/sections/AboutUs";
 
 const Index: React.FC = () => {
   return (
@@ -12,9 +12,9 @@ const Index: React.FC = () => {
       <Header />
       <main className="flex-grow">
         <HeroSection />
-        <WhyShivIndustry />
-        <AboutUs /> {/* Add the AboutUs section here */}
+        <AboutUs />
         <ProductRange />
+        <WhyShivIndustry /> {/* Moved WhyShivIndustry after ProductRange */}
         {/* Other sections will be added here */}
       </main>
       <Footer />
