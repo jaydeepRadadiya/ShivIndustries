@@ -45,11 +45,11 @@ const ProductCatalog: React.FC = () => {
   }, [searchTerm, sortOrder]);
 
   return (
-    <div className="min-h-screen flex flex-col bg-white text-black"> {/* Changed background to white and text to black */}
+    <div className="min-h-screen flex flex-col bg-background text-foreground">
       <Header />
-      <main className="flex-grow container mx-auto px-6 py-24 pt-32">
-        <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 text-black">Our Product Catalog</h1> {/* Changed text to black */}
-        <p className="text-lg text-center text-gray-700 max-w-3xl mx-auto mb-12"> {/* Changed text to gray-700 for contrast */}
+      <main className="flex-grow container mx-auto px-6 py-24 pt-32"> {/* Added pt-32 for header spacing */}
+        <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 text-foreground">Our Product Catalog</h1>
+        <p className="text-lg text-center text-muted-foreground max-w-3xl mx-auto mb-12">
           Explore our full range of packaging solutions. Use the search and sort options to find exactly what you need.
         </p>
 
@@ -57,12 +57,12 @@ const ProductCatalog: React.FC = () => {
           <Input
             type="text"
             placeholder="Search products..."
-            className="max-w-md w-full md:w-1/2 lg:w-1/3 p-2 border border-gray-300 rounded-md shadow-sm text-black" // Added border and text-black
+            className="max-w-md w-full md:w-1/2 lg:w-1/3 p-2 border rounded-md shadow-sm"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
           <Select onValueChange={(value: "asc" | "desc" | "none") => setSortOrder(value)} defaultValue={sortOrder}>
-            <SelectTrigger className="w-full md:w-[180px] p-2 border border-gray-300 rounded-md shadow-sm text-black"> {/* Added border and text-black */}
+            <SelectTrigger className="w-full md:w-[180px] p-2 border rounded-md shadow-sm">
               <SelectValue placeholder="Sort by" />
             </SelectTrigger>
             <SelectContent>
@@ -86,7 +86,7 @@ const ProductCatalog: React.FC = () => {
             ))}
           </div>
         ) : (
-          <div className="text-center text-xl text-gray-700 py-10"> {/* Changed text to gray-700 */}
+          <div className="text-center text-xl text-muted-foreground py-10">
             No products found matching your criteria.
           </div>
         )}
