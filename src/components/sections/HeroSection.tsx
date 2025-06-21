@@ -17,9 +17,6 @@ const HeroSection: React.FC = () => {
           Shiv Industries: Your Partner for Curated Packaging Solutions.
         </h1>
         <p className="text-lg md:text-xl text-white/90 mb-6">
-          From Precision Protection to Perfect Presentation: Custom Packaging Tailored to Every Business Need.
-        </p>
-        <p className="text-md md:text-lg text-white/70 mb-8">
           Elevate your brand, protect your products, and streamline your supply chain with our expertly designed and manufactured packaging for every industry.
         </p>
         <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
