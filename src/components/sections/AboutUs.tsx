@@ -24,29 +24,7 @@ const AboutUs: React.FC = () => {
           <ImageCarousel images={carouselImages} />
         </div>
 
-        <div className="space-y-16">
-          {/* Section 1: Details */}
-          <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="md:w-1/2 text-center md:text-left">
-              <h4 className="text-2xl font-bold mb-4 text-black">Precision Cutting & Shaping</h4>
-              <p className="text-lg text-black">Our advanced cutting machines ensure every box is precisely cut to your specifications, minimizing waste and maximizing accuracy for perfect fit and finish.</p>
-            </div>
-            <div className="md:w-1/2">
-              {/* Image removed as it's now in carousel */}
-            </div>
-          </div>
-
-          {/* Section 2: Details */}
-          <div className="flex flex-col md:flex-row-reverse items-center gap-8">
-            <div className="md:w-1/2 text-center md:text-right">
-              <h4 className="text-2xl font-bold mb-4 text-black">Automated Folding & Assembly</h4>
-              <p className="text-lg text-black">State-of-the-art automated folding and assembly lines guarantee consistent quality and rapid production, allowing us to handle large orders with unmatched efficiency.</p>
-            </div>
-            <div className="md:w-1/2">
-              {/* Image removed as it's now in carousel */}
-            </div>
-          </div>
-        </div>
+        {/* Removed the "Precision Cutting & Shaping" and "Automated Folding & Assembly" sections */}
       </div>
     </section>
   );
