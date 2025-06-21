@@ -24,7 +24,7 @@ const HeroSection: React.FC = () => {
         </p>
         <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
           <Button size="lg" className="px-8 py-3 text-lg shadow-md hover:shadow-lg transition-shadow">Get Your Custom Packaging Quote</Button>
-          <Button size="lg" variant="outline" className="px-8 py-3 text-lg border-secondary text-secondary-foreground hover:bg-secondary hover:text-secondary-foreground shadow-md hover:shadow-lg transition-shadow">Explore Our Product Range</Button>
+          <Button size="lg" variant="outline" className="px-8 py-3 text-lg border-accent text-accent-foreground hover:bg-accent hover:text-accent-foreground shadow-md hover:shadow-lg transition-shadow">Explore Our Product Range</Button>
         </div>
       </div>
     </section>
