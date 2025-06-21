@@ -29,7 +29,7 @@ const DifferentiatorCard: React.FC<DifferentiatorProps> = ({
     cardBgClass,
     borderColorClass
   )}>
-    <CardHeader className="pb-4">
+    <CardHeader className="pb-4 flex flex-col items-center"> {/* Added flex flex-col items-center */}
       <Icon size={48} className={cn("mb-4", iconColorClass)} />
       <CardTitle className={cn("text-xl font-semibold", titleColorClass)}>{title}</CardTitle>
     </CardHeader>
