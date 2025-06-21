@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const ProductRange: React.FC = () => {
   const products = [
     {
-      imageSrc: "https://via.placeholder.com/400x300/D1FAE5/10B981?text=Corrugated+Boxes",
+      imageSrc: "/Corrugated-Boxes.png",
       title: "Corrugated Boxes",
       description: "The industry standard for durable and versatile shipping. Our corrugated boxes offer superior protection and are customizable for various weights and dimensions. Ideal for general shipping, storage, and e-commerce.",
       benefit: "Reliable protection for every shipment."
@@ -23,13 +23,13 @@ const ProductRange: React.FC = () => {
       benefit: "Sleek design, strong performance for retail."
     },
     {
-      imageSrc: "https://via.placeholder.com/400x300/F0E68C/B8860B?text=Printed+Cartons",
+      imageSrc: "/Printed_Cartons.png",
       title: "Printed Cartons",
       description: "Transform your packaging into a powerful marketing tool. Our printed cartons offer vibrant, high-resolution graphics and branding opportunities, perfect for product display and consumer appeal.",
       benefit: "Make an impactful first impression."
     },
     {
-      imageSrc: "https://via.placeholder.com/400x300/DDA0DD/800080?text=Mono+Cartons",
+      imageSrc: "/mono_cartoon.png",
       title: "Mono Cartons",
       description: "Elegant and cost-effective, mono cartons are single-layer paperboard boxes, extensively used for pharmaceutical, food, and consumer goods packaging. Fully customizable for shape, size, and print.",
       benefit: "Versatile and economical branding."
@@ -41,7 +41,7 @@ const ProductRange: React.FC = () => {
       benefit: "Custom fit, unique designs for specialized products."
     },
     {
-      imageSrc: "https://via.placeholder.com/400x300/C0C0C0/696969?text=Heavy+Duty+Boxes",
+      imageSrc: "/heavy-duty.png",
       title: "Heavy Duty Boxes",
       description: "Engineered for maximum strength and protection. Our heavy-duty boxes are designed to withstand extreme conditions and heavy loads, ensuring the safe transport of large or fragile items.",
       benefit: "Uncompromised strength for critical shipments."
