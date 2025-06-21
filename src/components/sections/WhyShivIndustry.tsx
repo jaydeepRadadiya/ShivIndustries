@@ -29,7 +29,7 @@ const DifferentiatorCard: React.FC<DifferentiatorProps> = ({
     cardBgClass,
     borderColorClass
   )}>
-    <CardHeader className="pb-4 flex flex-col items-center"> {/* Added flex flex-col items-center */}
+    <CardHeader className="pb-4 flex flex-col items-center">
       <Icon size={48} className={cn("mb-4", iconColorClass)} />
       <CardTitle className={cn("text-xl font-semibold", titleColorClass)}>{title}</CardTitle>
     </CardHeader>
@@ -106,8 +106,8 @@ const WhyShivIndustry: React.FC = () => {
   return (
     <section id="why-shiv-industry" className="py-16 bg-white text-black">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col items-center mb-4"> {/* Added a div to center logo and text */}
-          <img src="/Shiv-Industries Dark-.png" alt="Shiv Industries Logo" className="h-20 mb-4" /> {/* Added logo */}
+        <div className="flex flex-col items-center mb-8"> {/* Increased mb-4 to mb-8 for more padding */}
+          <img src="/Shiv-Industries Dark-.png" alt="Shiv Industries Logo" className="h-24 mb-4" /> {/* Increased logo size to h-24 */}
           <h2 className="text-3xl md:text-4xl font-bold text-center text-black">
             Beyond Boxes: Crafting Packaging Excellence for Your Success.
           </h2>
