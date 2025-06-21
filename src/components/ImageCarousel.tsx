@@ -64,7 +64,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, autoPlayDelay = 3
               <img
                 src={imageSrc}
                 alt={`Carousel Image ${index + 1}`}
-                className="w-full h-[500px] object-cover rounded-lg shadow-lg"
+                className="w-full h-[400px] object-contain rounded-lg shadow-lg" // Changed h-[500px] to h-[400px] and object-cover to object-contain
               />
             </div>
           </CarouselItem>
