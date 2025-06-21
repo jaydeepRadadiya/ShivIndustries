@@ -13,7 +13,7 @@
     --popover: 198 33% 95%; /* EDF6F9 */
     --popover-foreground: 186 100% 23%; /* 006D77 */
 
-    --primary: 240 60% 12%; /* A very dark blue, almost black */
+    --primary: 240 60% 20%; /* A darker blue, but more visible */
     --primary-foreground: 198 33% 95%; /* EDF6F9 */
 
     --secondary: 170 33% 64%; /* 83C5BE */
@@ -55,7 +55,7 @@
     --popover: 186 100% 23%; /* 006D77 */
     --popover-foreground: 198 33% 95%; /* EDF6F9 */
 
-    --primary: 240 60% 12%; /* A very dark blue, almost black */
+    --primary: 240 60% 20%; /* A darker blue, but more visible */
     --primary-foreground: 198 33% 95%; /* EDF6F9 */
 
     --secondary: 20 66% 70%; /* E29578 */
