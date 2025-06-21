@@ -17,7 +17,7 @@ const ProductRange: React.FC = () => {
       benefit: "Premium presentation, robust protection."
     },
     {
-      imageSrc: "https://via.placeholder.com/400x300/FFDDC1/FF7F50?text=E-Flute+Corrugated",
+      imageSrc: "/E-Flute-Corrugated Boxes.jpeg",
       title: "E-Flute Corrugated Boxes",
       description: "Lightweight yet incredibly strong, E-Flute corrugated offers a sleek profile with excellent printability. Ideal for retail packaging, cosmetic boxes, and lightweight product packaging where aesthetics are key.",
       benefit: "Sleek design, strong performance for retail."
