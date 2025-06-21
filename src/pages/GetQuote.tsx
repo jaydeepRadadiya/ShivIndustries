@@ -88,7 +88,7 @@ const GetQuote: React.FC = () => {
     <div className="min-h-screen flex flex-col bg-background text-foreground">
       <Header />
       <main className="flex-grow container mx-auto px-6 py-24">
-        <div className="max-w-3xl mx-auto bg-card p-8 rounded-lg shadow-lg border border-border">
+        <div className="max-w-3xl mx-auto bg-card p-8 rounded-lg shadow-lg border border-border text-black">
           <h2 className="text-3xl font-bold text-center mb-6 text-card-foreground">Request a Custom Quote</h2>
           <p className="text-center text-muted-foreground mb-8">
             Tell us about your packaging needs, and we'll get back to you with a personalized quote.
