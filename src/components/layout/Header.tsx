@@ -18,10 +18,10 @@ const Header: React.FC = () => {
       </div>
       <nav className="hidden md:flex space-x-6">
         <Link to="/#hero" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Home</Link>
-        <Link to="/#about-us" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">About Us</Link> {/* New link */}
+        <Link to="/#about-us" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">About Us</Link>
         <Link to="/#why-shiv-industry" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Why Us</Link>
         <Link to="/products" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Products</Link>
-        <Link to="/#testimonials" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Contact</Link>
+        <Link to="/#contact-us-section" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Contact</Link> {/* Updated link */}
       </nav>
       <Link to="/get-quote">
         <Button className="hidden md:block shadow-md hover:shadow-lg transition-shadow bg-white text-black hover:bg-gray-100">Get a Quote</Button>

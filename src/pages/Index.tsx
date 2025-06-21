@@ -5,6 +5,7 @@ import HeroSection from "@/components/sections/HeroSection";
 import WhyShivIndustry from "@/components/sections/WhyShivIndustry";
 import ProductRange from "@/components/sections/ProductRange";
 import AboutUs from "@/components/sections/AboutUs";
+import ContactInfoSection from "@/components/sections/ContactInfoSection"; // Import the new section
 
 const Index: React.FC = () => {
   return (
@@ -14,7 +15,8 @@ const Index: React.FC = () => {
         <HeroSection />
         <AboutUs />
         <ProductRange />
-        <WhyShivIndustry /> {/* Moved WhyShivIndustry after ProductRange */}
+        <WhyShivIndustry />
+        <ContactInfoSection /> {/* Add the new contact info section here */}
         {/* Other sections will be added here */}
       </main>
       <Footer />
