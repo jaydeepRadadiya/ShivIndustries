@@ -77,7 +77,7 @@ const ProductRange: React.FC = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button size="lg" variant="outline" className="px-8 py-3 text-lg border-gray-400 text-gray-200 hover:bg-gray-800 hover:text-white shadow-md hover:shadow-lg transition-shadow">
+          <Button size="lg" variant="outline" className="px-8 py-3 text-lg border-gray-400 text-black hover:bg-gray-800 hover:text-white shadow-md hover:shadow-lg transition-shadow">
             View Our Full Product Gallery
           </Button>
         </div>
