@@ -4,8 +4,8 @@ import ImageCarousel from "@/components/ImageCarousel"; // Import the new ImageC
 const AboutUs: React.FC = () => {
   const carouselImages = [
     "/Carousel1.png",
-    "/Carousel2.png",
-    "/Carousel3.png",
+    "/Carousel2.jpeg", // Changed to .jpeg
+    "/Carousel3.jpeg", // Changed to .jpeg
     "/Carousel4.png",
   ];
 
