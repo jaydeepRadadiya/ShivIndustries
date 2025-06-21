@@ -11,10 +11,18 @@ const Footer: React.FC = () => {
           <h3 className="text-2xl font-bold mb-4">Shiv Industries</h3>
           <p className="text-sm mb-4">Your Partner for Curated Packaging Solutions.</p>
           <p className="text-sm">
-            [Your Address, Ahmedabad, Gujarat, India]
+            Plot No. 168, Survey No. 172/15, Daman Ganga Estate, Karwad, Vapi, Valsad, Gujarat
+            <br />
+            Pin: 396195
           </p>
-          <p className="text-sm">Phone: [Your Phone Number]</p>
-          <p className="text-sm">Email: [Your Email Address]</p>
+          <p className="text-sm">
+            Phone:
+            <br />
+            Ankit Patel: +91 90543 48082
+            <br />
+            Kenil Patel: +91 91573 72356
+          </p>
+          <p className="text-sm">Email: shivindustriesvapi24@gmail.com</p>
         </div>
 
         {/* Navigation */}
@@ -22,7 +30,7 @@ const Footer: React.FC = () => {
           <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2">
             <li><a href="#hero" className="hover:underline">Home</a></li>
-            <li><a href="#about-us" className="hover:underline">About Us</a></li> {/* New link */}
+            <li><a href="#about-us" className="hover:underline">About Us</a></li>
             <li><a href="#why-shiv-industry" className="hover:underline">Why Choose Us</a></li>
             <li><a href="#products" className="hover:underline">Products</a></li>
             <li><a href="#get-started" className="hover:underline">Contact Us</a></li>
