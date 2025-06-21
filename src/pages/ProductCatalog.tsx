@@ -57,12 +57,12 @@ const ProductCatalog: React.FC = () => {
           <Input
             type="text"
             placeholder="Search products..."
-            className="max-w-md w-full md:w-1/2 lg:w-1/3 p-2 border rounded-md shadow-sm text-black"
+            className="max-w-md w-full md:w-1/2 lg:w-1/3 p-2 border border-black rounded-md shadow-sm text-black"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
           <Select onValueChange={(value: "asc" | "desc" | "none") => setSortOrder(value)} defaultValue={sortOrder}>
-            <SelectTrigger className="w-full md:w-[180px] p-2 border rounded-md shadow-sm text-black">
+            <SelectTrigger className="w-full md:w-[180px] p-2 border border-black rounded-md shadow-sm text-black">
               <SelectValue placeholder="Sort by" />
             </SelectTrigger>
             <SelectContent>
