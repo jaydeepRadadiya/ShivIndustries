@@ -106,14 +106,14 @@ const WhyShivIndustry: React.FC = () => {
   return (
     <section id="why-shiv-industry" className="py-16 bg-white text-black">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col items-center mb-8"> {/* Increased mb-4 to mb-8 for more padding */}
-          <img src="/Shiv-Industries Dark-.png" alt="Shiv Industries Logo" className="h-24 mb-4" /> {/* Increased logo size to h-24 */}
+        <div className="flex flex-col items-center mb-8">
+          <img src="/Shiv-Industries Dark-.png" alt="Shiv Industries Logo" className="h-24 mb-4" />
           <h2 className="text-3xl md:text-4xl font-bold text-center text-black">
             Beyond Boxes: Crafting Packaging Excellence for Your Success.
           </h2>
         </div>
         <p className="text-lg text-center text-gray-700 max-w-3xl mx-auto mb-12">
-          At Shiv Industries, we believe packaging is a critical extension of your brand and protection for your products. With deep industry experience, we specialize in delivering curated packaging solutions designed to meet the unique challenges and aspirations of businesses across various sectors. Our commitment is to precision, innovation, and unwavering quality.
+          At Shiv Industries, we offer curated packaging solutions, leveraging deep industry experience to meet your unique challenges. We are committed to precision, innovation, and unwavering quality.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
