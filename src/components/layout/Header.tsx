@@ -1,12 +1,12 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Link } from 'react-router-dom'; // Import Link
+import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
   return (
     <header className="w-full bg-black text-white shadow-lg py-4 px-6 flex justify-between items-center fixed top-0 left-0 right-0 z-50">
       <div className="flex items-center">
-        <img src="/Shiv-Industries Dark-.png" alt="Shiv Industries Logo" className="h-16 mr-3" /> {/* Increased logo size to h-16 */}
+        <img src="/Shiv-Industries Dark-.png" alt="Shiv Industries Logo" className="h-16 mr-3" />
         <div className="flex flex-col items-start">
           <div className="text-2xl font-bold text-white">
             SHIV INDUSTRIES
@@ -19,7 +19,7 @@ const Header: React.FC = () => {
       <nav className="hidden md:flex space-x-6">
         <Link to="/#hero" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Home</Link>
         <Link to="/#why-shiv-industry" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Why Us</Link>
-        <Link to="/#products" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Products</Link>
+        <Link to="/products" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Products</Link> {/* Updated link */}
         <Link to="/#testimonials" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Contact</Link>
       </nav>
       <Link to="/get-quote">

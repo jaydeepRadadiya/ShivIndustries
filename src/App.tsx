@@ -5,7 +5,8 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import GetQuote from "./pages/GetQuote"; // Import the new GetQuote page
+import GetQuote from "./pages/GetQuote";
+import ProductCatalog from "./pages/ProductCatalog"; // Import the new ProductCatalog page
 
 const queryClient = new QueryClient();
 
@@ -17,7 +18,8 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/get-quote" element={<GetQuote />} /> {/* Add the new route */}
+          <Route path="/get-quote" element={<GetQuote />} />
+          <Route path="/products" element={<ProductCatalog />} /> {/* Add the new route for Product Catalog */}
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
