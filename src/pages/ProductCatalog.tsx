@@ -45,7 +45,7 @@ const ProductCatalog: React.FC = () => {
   }, [searchTerm, sortOrder]);
 
   return (
-    <div className="min-h-screen flex flex-col bg-background text-foreground">
+    <div className="min-h-screen flex flex-col bg-white text-foreground">
       <Header />
       <main className="flex-grow container mx-auto px-6 py-24 pt-32"> {/* Added pt-32 for header spacing */}
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 text-black">Our Product Catalog</h1>
