@@ -39,7 +39,7 @@ export const products: Product[] = [
     benefit: "Versatile and economical branding."
   },
   {
-    imageSrc: "https://via.placeholder.com/400x300/ADD8E6/4682B4?text=Punching+Boxes",
+    imageSrc: "/diecuttingtoprototypes.jpg",
     title: "Punching Boxes",
     description: "Precision-cut for unique shapes and designs. Punching boxes (die-cut boxes) offer custom fits and intricate details, providing a bespoke packaging solution for unique products or display needs.",
     benefit: "Custom fit, unique designs for specialized products."
