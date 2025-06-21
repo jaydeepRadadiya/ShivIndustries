@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection: React.FC = () => {
   return (
-    <section id="hero" className="relative h-screen flex items-center justify-center text-center bg-background overflow-hidden pt-16">
+    <section id="hero" className="relative h-screen flex items-center justify-center text-center bg-muted overflow-hidden pt-16"> {/* Changed bg-background to bg-muted */}
       {/* Background Image/Video Placeholder */}
       <div className="absolute inset-0 bg-cover bg-center opacity-30" style={{ backgroundImage: "url('https://via.placeholder.com/1920x1080/F3F4F6/1F2937?text=Packaging+Solutions')" }}></div>
       {/* Content */}

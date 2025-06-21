@@ -5,10 +5,10 @@ const Header: React.FC = () => {
   return (
     <header className="w-full bg-background text-foreground shadow-lg py-4 px-6 flex justify-between items-center fixed top-0 left-0 right-0 z-50">
       <div className="flex flex-col items-start">
-        <div className="text-2xl font-bold text-primary">
+        <div className="text-2xl font-bold text-black"> {/* Changed to text-black */}
           Shiv Industries
         </div>
-        <div className="text-sm text-muted-foreground">
+        <div className="text-sm text-black"> {/* Changed to text-black */}
           you ask we innovate
         </div>
       </div>
