@@ -1,17 +1,20 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from 'react';
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+import HeroSection from "@/components/sections/HeroSection";
+import WhyShivIndustry from "@/components/sections/WhyShivIndustry";
+// Import other sections as they are created
 
-import { MadeWithDyad } from "@/components/made-with-dyad";
-
-const Index = () => {
+const Index: React.FC = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">
-          Start building your amazing project here!
-        </p>
-      </div>
-      <MadeWithDyad />
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <main className="flex-grow">
+        <HeroSection />
+        <WhyShivIndustry />
+        {/* Other sections will be added here */}
+      </main>
+      <Footer />
     </div>
   );
 };
