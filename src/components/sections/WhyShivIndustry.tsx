@@ -1,21 +1,40 @@
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Package, Award, Lightbulb, Truck, Handshake, Leaf } from 'lucide-react';
+import { cn } from "@/lib/utils"; // Import cn utility
 
 interface DifferentiatorProps {
   icon: React.ElementType;
   title: string;
   description: string;
+  cardBgClass: string;
+  iconColorClass: string;
+  titleColorClass: string;
+  descriptionColorClass: string;
+  borderColorClass: string;
 }
 
-const DifferentiatorCard: React.FC<DifferentiatorProps> = ({ icon: Icon, title, description }) => (
-  <Card className="flex flex-col items-center text-center p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 bg-blue-50 border border-blue-200">
+const DifferentiatorCard: React.FC<DifferentiatorProps> = ({ 
+  icon: Icon, 
+  title, 
+  description, 
+  cardBgClass, 
+  iconColorClass, 
+  titleColorClass, 
+  descriptionColorClass,
+  borderColorClass
+}) => (
+  <Card className={cn(
+    "flex flex-col items-center text-center p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2",
+    cardBgClass,
+    borderColorClass
+  )}>
     <CardHeader className="pb-4">
-      <Icon size={48} className="text-blue-600 mb-4" />
-      <CardTitle className="text-xl font-semibold text-blue-900">{title}</CardTitle>
+      <Icon size={48} className={cn("mb-4", iconColorClass)} />
+      <CardTitle className={cn("text-xl font-semibold", titleColorClass)}>{title}</CardTitle>
     </CardHeader>
     <CardContent>
-      <p className="text-blue-700">{description}</p>
+      <p className={descriptionColorClass}>{description}</p>
     </CardContent>
   </Card>
 );
@@ -25,32 +44,62 @@ const WhyShivIndustry: React.FC = () => {
     {
       icon: Package,
       title: "Curated Solutions",
-      description: "We offer personalized consultations to understand your specific product, brand, and logistical needs, delivering truly custom-fit packaging that stands out."
+      description: "We offer personalized consultations to understand your specific product, brand, and logistical needs, delivering truly custom-fit packaging that stands out.",
+      cardBgClass: "bg-blue-50",
+      iconColorClass: "text-blue-600",
+      titleColorClass: "text-blue-900",
+      descriptionColorClass: "text-blue-700",
+      borderColorClass: "border-blue-200"
     },
     {
       icon: Award,
       title: "Unrivaled Quality",
-      description: "Utilizing premium materials and state-of-the-art manufacturing, we guarantee durable, aesthetically pleasing, and consistent quality across all orders."
+      description: "Utilizing premium materials and state-of-the-art manufacturing, we guarantee durable, aesthetically pleasing, and consistent quality across all orders.",
+      cardBgClass: "bg-indigo-50",
+      iconColorClass: "text-indigo-600",
+      titleColorClass: "text-indigo-900",
+      descriptionColorClass: "text-indigo-700",
+      borderColorClass: "border-indigo-200"
     },
     {
       icon: Lightbulb,
       title: "Design & Innovation",
-      description: "Our expert design team collaborates with you to create packaging that not only protects but also enhances your brand appeal and market presence, from concept to delivery."
+      description: "Our expert design team collaborates with you to create packaging that not only protects but also enhances your brand appeal and market presence, from concept to delivery.",
+      cardBgClass: "bg-amber-50",
+      iconColorClass: "text-amber-600",
+      titleColorClass: "text-amber-900",
+      descriptionColorClass: "text-amber-700",
+      borderColorClass: "border-amber-200"
     },
     {
       icon: Truck,
       title: "Reliable Delivery",
-      description: "We understand the importance of your timelines. Our streamlined processes ensure your orders are delivered efficiently and on schedule, every time."
+      description: "We understand the importance of your timelines. Our streamlined processes ensure your orders are delivered efficiently and on schedule, every time.",
+      cardBgClass: "bg-cyan-50",
+      iconColorClass: "text-cyan-600",
+      titleColorClass: "text-cyan-900",
+      descriptionColorClass: "text-cyan-700",
+      borderColorClass: "border-cyan-200"
     },
     {
       icon: Handshake,
       title: "Customer-Centric Approach",
-      description: "Your satisfaction is our priority. We offer dedicated support and flexibility to adapt to your evolving packaging requirements, ensuring a seamless experience."
+      description: "Your satisfaction is our priority. We offer dedicated support and flexibility to adapt to your evolving packaging requirements, ensuring a seamless experience.",
+      cardBgClass: "bg-orange-50",
+      iconColorClass: "text-orange-600",
+      titleColorClass: "text-orange-900",
+      descriptionColorClass: "text-orange-700",
+      borderColorClass: "border-orange-200"
     },
     {
       icon: Leaf,
       title: "Sustainable Practices",
-      description: "Committed to a greener future, we offer a range of eco-friendly material options and responsible manufacturing processes."
+      description: "Committed to a greener future, we offer a range of eco-friendly material options and responsible manufacturing processes.",
+      cardBgClass: "bg-emerald-50",
+      iconColorClass: "text-emerald-600",
+      titleColorClass: "text-emerald-900",
+      descriptionColorClass: "text-emerald-700",
+      borderColorClass: "border-emerald-200"
     }
   ];
 
@@ -71,6 +120,11 @@ const WhyShivIndustry: React.FC = () => {
               icon={differentiator.icon}
               title={differentiator.title}
               description={differentiator.description}
+              cardBgClass={differentiator.cardBgClass}
+              iconColorClass={differentiator.iconColorClass}
+              titleColorClass={differentiator.titleColorClass}
+              descriptionColorClass={differentiator.descriptionColorClass}
+              borderColorClass={differentiator.borderColorClass}
             />
           ))}
         </div>
