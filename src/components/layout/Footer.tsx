@@ -37,10 +37,10 @@ const Footer: React.FC = () => {
             <li><a href="#" className="hover:underline">Terms & Conditions</a></li>
           </ul>
           <div className="flex space-x-4">
-            <a href="#" aria-label="LinkedIn" className="hover:text-accent-foreground transition-colors"><Linkedin size={24} /></a>
-            <a href="#" aria-label="Facebook" className="hover:text-accent-foreground transition-colors"><Facebook size={24} /></a>
-            <a href="#" aria-label="Twitter" className="hover:text-accent-foreground transition-colors"><Twitter size={24} /></a>
-            <a href="#" aria-label="Instagram" className="hover:text-accent-foreground transition-colors"><Instagram size={24} /></a>
+            <a href="#" aria-label="LinkedIn" className="hover:text-accent transition-colors"><Linkedin size={24} /></a>
+            <a href="#" aria-label="Facebook" className="hover:text-accent transition-colors"><Facebook size={24} /></a>
+            <a href="#" aria-label="Twitter" className="hover:text-accent transition-colors"><Twitter size={24} /></a>
+            <a href="#" aria-label="Instagram" className="hover:text-accent transition-colors"><Instagram size={24} /></a>
           </div>
         </div>
       </div>
