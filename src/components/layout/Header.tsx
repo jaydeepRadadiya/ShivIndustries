@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button";
 const Header: React.FC = () => {
   return (
     <header className="w-full bg-black text-white shadow-lg py-4 px-6 flex justify-between items-center fixed top-0 left-0 right-0 z-50">
-      <div className="flex flex-col items-start">
+      <div className="flex flex-col items-center"> {/* Changed items-start to items-center */}
         <div className="text-2xl font-bold text-white">
           SHIV INDUSTRIES
         </div>
-        <div className="text-sm text-white">
+        <div className="text-sm text-white uppercase text-center"> {/* Added uppercase and text-center */}
           you ask we innovate
         </div>
       </div>
