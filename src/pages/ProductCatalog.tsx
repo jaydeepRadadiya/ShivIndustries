@@ -48,8 +48,8 @@ const ProductCatalog: React.FC = () => {
     <div className="min-h-screen flex flex-col bg-background text-foreground">
       <Header />
       <main className="flex-grow container mx-auto px-6 py-24 pt-32"> {/* Added pt-32 for header spacing */}
-        <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 text-foreground">Our Product Catalog</h1>
-        <p className="text-lg text-center text-muted-foreground max-w-3xl mx-auto mb-12">
+        <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 text-black">Our Product Catalog</h1>
+        <p className="text-lg text-center text-black max-w-3xl mx-auto mb-12">
           Explore our full range of packaging solutions. Use the search and sort options to find exactly what you need.
         </p>
 
@@ -57,15 +57,15 @@ const ProductCatalog: React.FC = () => {
           <Input
             type="text"
             placeholder="Search products..."
-            className="max-w-md w-full md:w-1/2 lg:w-1/3 p-2 border rounded-md shadow-sm"
+            className="max-w-md w-full md:w-1/2 lg:w-1/3 p-2 border rounded-md shadow-sm text-black placeholder:text-gray-500"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
           <Select onValueChange={(value: "asc" | "desc" | "none") => setSortOrder(value)} defaultValue={sortOrder}>
-            <SelectTrigger className="w-full md:w-[180px] p-2 border rounded-md shadow-sm">
+            <SelectTrigger className="w-full md:w-[180px] p-2 border rounded-md shadow-sm text-black">
               <SelectValue placeholder="Sort by" />
             </SelectTrigger>
-            <SelectContent>
+            <SelectContent className="text-black">
               <SelectItem value="none">No Sort</SelectItem>
               <SelectItem value="asc">Name (A-Z)</SelectItem>
               <SelectItem value="desc">Name (Z-A)</SelectItem>
@@ -86,7 +86,7 @@ const ProductCatalog: React.FC = () => {
             ))}
           </div>
         ) : (
-          <div className="text-center text-xl text-muted-foreground py-10">
+          <div className="text-center text-xl text-black py-10">
             No products found matching your criteria.
           </div>
         )}
