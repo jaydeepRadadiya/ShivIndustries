@@ -9,7 +9,7 @@ const HeroSection: React.FC = () => {
       {/* Content */}
       <div className="relative z-10 p-6 max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 dark:text-white leading-tight mb-4">
-          Shiv Industry: Your Partner for Curated Packaging Solutions.
+          Shiv Industries: Your Partner for Curated Packaging Solutions.
         </h1>
         <p className="text-lg md:text-xl text-gray-700 dark:text-gray-200 mb-6">
           From Precision Protection to Perfect Presentation: Custom Packaging Tailored to Every Business Need.

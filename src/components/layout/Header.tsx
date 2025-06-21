@@ -4,8 +4,13 @@ import { Button } from "@/components/ui/button";
 const Header: React.FC = () => {
   return (
     <header className="w-full bg-white dark:bg-gray-900 shadow-sm py-4 px-6 flex justify-between items-center fixed top-0 left-0 right-0 z-50">
-      <div className="text-2xl font-bold text-primary dark:text-primary-foreground">
-        Shiv Industry
+      <div className="flex flex-col items-start">
+        <div className="text-2xl font-bold text-primary dark:text-primary-foreground">
+          Shiv Industries
+        </div>
+        <div className="text-sm text-gray-600 dark:text-gray-400">
+          you ask we innovate
+        </div>
       </div>
       <nav className="hidden md:flex space-x-6">
         <a href="#hero" className="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary-foreground transition-colors">Home</a>

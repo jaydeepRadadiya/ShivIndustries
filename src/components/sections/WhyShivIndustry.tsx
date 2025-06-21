@@ -61,7 +61,7 @@ const WhyShivIndustry: React.FC = () => {
           Beyond Boxes: Crafting Packaging Excellence for Your Success.
         </h2>
         <p className="text-lg text-center text-gray-700 dark:text-gray-300 max-w-3xl mx-auto mb-12">
-          At Shiv Industry, we believe packaging is a critical extension of your brand and protection for your products. With deep industry experience, we specialize in delivering curated packaging solutions designed to meet the unique challenges and aspirations of businesses across various sectors. Our commitment is to precision, innovation, and unwavering quality.
+          At Shiv Industries, we believe packaging is a critical extension of your brand and protection for your products. With deep industry experience, we specialize in delivering curated packaging solutions designed to meet the unique challenges and aspirations of businesses across various sectors. Our commitment is to precision, innovation, and unwavering quality.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
