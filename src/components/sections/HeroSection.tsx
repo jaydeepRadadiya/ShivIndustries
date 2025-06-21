@@ -11,13 +11,13 @@ const HeroSection: React.FC = () => {
       ></div>
       {/* Content */}
       <div className="relative z-10 p-6 max-w-4xl mx-auto">
-        <h1 className="text-4xl md:text-6xl font-extrabold text-foreground leading-tight mb-4">
+        <h1 className="text-4xl md:text-6xl font-extrabold text-black leading-tight mb-4">
           Shiv Industries: Your Partner for Curated Packaging Solutions.
         </h1>
-        <p className="text-lg md:text-xl text-foreground/90 mb-6">
+        <p className="text-lg md:text-xl text-black/90 mb-6">
           From Precision Protection to Perfect Presentation: Custom Packaging Tailored to Every Business Need.
         </p>
-        <p className="text-md md:text-lg text-foreground/70 mb-8">
+        <p className="text-md md:text-lg text-black/70 mb-8">
           Elevate your brand, protect your products, and streamline your supply chain with our expertly designed and manufactured packaging for every industry.
         </p>
         <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
