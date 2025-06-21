@@ -24,7 +24,9 @@ const HeroSection: React.FC = () => {
           <Link to="/get-quote"> {/* Use Link for navigation */}
             <Button size="lg" className="px-8 py-3 text-lg shadow-md hover:shadow-lg transition-shadow bg-primary text-primary-foreground hover:bg-primary/90">Get Your Custom Packaging Quote</Button>
           </Link>
-          <Button size="lg" className="px-8 py-3 text-lg shadow-md hover:shadow-lg transition-shadow bg-white text-black hover:bg-gray-100">Explore Our Product Range</Button>
+          <Link to="/products"> {/* Added Link for navigation to product catalog */}
+            <Button size="lg" className="px-8 py-3 text-lg shadow-md hover:shadow-lg transition-shadow bg-white text-black hover:bg-gray-100">Explore Our Product Range</Button>
+          </Link>
         </div>
       </div>
     </section>
