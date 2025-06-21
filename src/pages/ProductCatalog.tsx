@@ -48,8 +48,8 @@ const ProductCatalog: React.FC = () => {
     <div className="min-h-screen flex flex-col bg-background text-foreground">
       <Header />
       <main className="flex-grow container mx-auto px-6 py-24 pt-32"> {/* Added pt-32 for header spacing */}
-        <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 text-foreground">Our Product Catalog</h1>
-        <p className="text-lg text-center text-muted-foreground max-w-3xl mx-auto mb-12">
+        <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 text-black">Our Product Catalog</h1>
+        <p className="text-lg text-center text-black max-w-3xl mx-auto mb-12">
           Explore our full range of packaging solutions. Use the search and sort options to find exactly what you need.
         </p>
 
