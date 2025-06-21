@@ -13,11 +13,11 @@ const Header: React.FC = () => {
         </div>
       </div>
       <nav className="hidden md:flex space-x-6">
-        <a href="#hero" className="text-white hover:text-gray-300 transition-colors">Home</a>
-        <a href="#why-shiv-industry" className="text-white hover:text-gray-300 transition-colors">Why Us</a>
-        <a href="#products" className="text-white hover:text-gray-300 transition-colors">Products</a>
-        <a href="#testimonials" className="text-white hover:text-gray-300 transition-colors">Testimonials</a>
-        <a href="#get-started" className="text-white hover:text-gray-300 transition-colors">Contact</a>
+        <a href="#hero" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Home</a>
+        <a href="#why-shiv-industry" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Why Us</a>
+        <a href="#products" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Products</a>
+        <a href="#testimonials" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Testimonials</a>
+        <a href="#get-started" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Contact</a>
       </nav>
       <Button className="hidden md:block shadow-md hover:shadow-lg transition-shadow bg-black text-white hover:bg-gray-900">Get a Quote</Button>
       {/* Mobile menu icon could go here */}
