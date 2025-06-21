@@ -14,12 +14,12 @@ const Header: React.FC = () => {
         </div>
       </div>
       <nav className="hidden md:flex space-x-6">
-        <a href="#hero" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Home</a>
-        <a href="#why-shiv-industry" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Why Us</a>
-        <a href="#products" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Products</a>
-        <a href="#testimonials" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Contact</a>
+        <Link to="/#hero" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Home</Link>
+        <Link to="/#why-shiv-industry" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Why Us</Link>
+        <Link to="/#products" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Products</Link>
+        <Link to="/#testimonials" className="text-white hover:text-gray-300 transition-colors text-lg font-bold">Contact</Link>
       </nav>
-      <Link to="/get-quote"> {/* Use Link for navigation */}
+      <Link to="/get-quote">
         <Button className="hidden md:block shadow-md hover:shadow-lg transition-shadow bg-white text-black hover:bg-gray-100">Get a Quote</Button>
       </Link>
       {/* Mobile menu icon could go here */}
