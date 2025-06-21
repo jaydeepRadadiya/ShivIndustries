@@ -13,7 +13,7 @@ interface ImageCarouselProps {
 
 const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
   return (
-    <Carousel className="w-full max-w-2xl mx-auto">
+    <Carousel className="w-full mx-auto"> {/* Removed max-w-2xl */}
       <CarouselContent>
         {images.map((imageSrc, index) => (
           <CarouselItem key={index}>
@@ -21,7 +21,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
               <img
                 src={imageSrc}
                 alt={`Carousel Image ${index + 1}`}
-                className="w-full h-96 object-cover rounded-lg shadow-lg"
+                className="w-full h-[500px] object-cover rounded-lg shadow-lg" {/* Increased height to h-[500px] */}
               />
             </div>
           </CarouselItem>
