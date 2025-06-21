@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
             <li><a href="#hero" className="hover:underline">Home</a></li>
             <li><a href="#why-shiv-industry" className="hover:underline">Why Choose Us</a></li>
             <li><a href="#products" className="hover:underline">Products</a></li>
-            <li><a href="#get-started" className="hover:underline">Contact Us</a></li>
+            <li><a href="#contact-us" className="hover:underline">Contact Us</a></li> {/* Updated link to anchor */}
             {/* <li><a href="#" className="hover:underline">Blog</a></li> */}
           </ul>
         </div>
