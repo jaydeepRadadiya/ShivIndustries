@@ -14,4 +14,5 @@ export default defineConfig(() => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: "/ShivIndustries/", // Set the base path for GitHub Pages
 }));
