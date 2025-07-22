@@ -3,7 +3,7 @@ import dyadComponentTagger from "@dyad-sh/react-vite-component-tagger";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
-export default defineConfig(() => ({
+export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
@@ -14,5 +14,8 @@ export default defineConfig(() => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/ShivIndustries/", // Set the base path for GitHub Pages
+  // Set the base path conditionally:
+  // For development (npm run dev), use '/'
+  // For production build (npm run build), use '/ShivIndustries/' for GitHub Pages
+  base: mode === 'production' ? '/ShivIndustries/' : '/',
 }));
