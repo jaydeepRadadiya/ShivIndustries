@@ -32,7 +32,7 @@ const formSchema = z.object({
     message: "Name must not be longer than 50 characters.",
   }),
   email: z.string().email({
-    message: "Please enter a valid email address.",
+    message: "Please, enter a valid email address.",
   }),
   phone: z.string().regex(/^\+?[1-9]\d{1,14}$/, {
     message: "Please enter a valid phone number (e.g., +1234567890).",
