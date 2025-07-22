@@ -9,7 +9,7 @@ export const products: Product[] = [
   {
     imageSrc: "/Corrugated-Boxes.png",
     title: "Corrugated Boxes",
-    description: "The industry standard for durable and versatile shipping. Our corrugated boxes offer superior protection and are customizable for various weights and dimensions. Ideal for general shipping, storage, and e-commerce.",
+    description: "The industry standard for durable and versatile shipping. Our corrugated boxes offer superior protection, and are customizable for various weights and dimensions. Ideal for general shipping, storage, and e-commerce.",
     benefit: "Reliable protection for every shipment."
   },
   {
